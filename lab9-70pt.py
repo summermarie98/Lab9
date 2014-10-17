@@ -12,3 +12,7 @@
 # Accept user input 
 # Calculate fahrenheit
 # Output answer
+
+userInput = int(raw_input())
+
+print userInput *9/5+32
