@@ -34,9 +34,9 @@ while(keepGoing == True):
         print "We will need to admit you into the hospital!"
     else:
         print "You are not sick. Thank you for your time!"
-        print "Are there any more patients left to be checked?"
-        OverallAnswer = raw_input()
-        if OverallAnswer == "No":
-            keepGoing = False
+    print "Are there any more patients left to be checked?"
+    OverallAnswer = raw_input()
+    if OverallAnswer == "No":
+        keepGoing = False
 
     
